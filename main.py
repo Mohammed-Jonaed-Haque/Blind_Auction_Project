@@ -2,7 +2,7 @@ import art
 print (art.logo)
 
 
-def highest_bid(bidding_dictionary):
+def highest_bid(bidding_dictionary):  #<--- checks for the highest bidder
     winner= " "
     highest_bidder = 0
     for bidder in  bidding_dictionary:
